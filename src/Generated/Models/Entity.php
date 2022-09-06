@@ -438,7 +438,6 @@ class Entity implements AdditionalDataHolder, Parsable
                 case '#microsoft.graph.request': return new Request();
                 case '#microsoft.graph.resourceOperation': return new ResourceOperation();
                 case '#microsoft.graph.resourceSpecificPermissionGrant': return new ResourceSpecificPermissionGrant();
-                case '#microsoft.graph.restrictedSignIn': return new RestrictedSignIn();
                 case '#microsoft.graph.richLongRunningOperation': return new RichLongRunningOperation();
                 case '#microsoft.graph.riskDetection': return new RiskDetection();
                 case '#microsoft.graph.riskyUser': return new RiskyUser();
